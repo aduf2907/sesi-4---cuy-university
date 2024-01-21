@@ -13,34 +13,62 @@
       <!-- Lampu 1 -->
       <div class="flex flex-col gap-2">
         <img src="assets/images/off.gif" alt="" id="lampu1" />
-        <button onclick="saklar('on', 1)" class="bg-white p-4 text-black">
-          NYALAKAN LAMPU
-        </button>
-        <button onclick="saklar('off', 1)" class="bg-white p-4 text-black">
-          MATIKAN LAMPU
-        </button>
+
+        <label class="relative inline-flex items-center cursor-pointer mx-auto">
+          <input
+            type="checkbox"
+            value=""
+            id="toggle1"
+            class="sr-only peer"
+            onchange="saklar()"
+          />
+          <div
+            class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"
+          ></div>
+          <span
+            class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300"
+          ></span>
+        </label>
       </div>
 
       <!-- Lampu 2 -->
       <div class="flex flex-col gap-2">
         <img src="assets/images/off.gif" alt="" id="lampu2" />
-        <button onclick="saklar('on', 2)" class="bg-white p-4 text-black">
-          NYALAKAN LAMPU 2
-        </button>
-        <button onclick="saklar('off', 2)" class="bg-white p-4 text-black">
-          MATIKAN LAMPU 2
-        </button>
+        <label class="relative inline-flex items-center cursor-pointer mx-auto">
+          <input
+            type="checkbox"
+            value=""
+            id="toggle2"
+            class="sr-only peer"
+            onchange="saklar()"
+          />
+          <div
+            class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"
+          ></div>
+          <span
+            class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300"
+          ></span>
+        </label>
       </div>
 
       <!-- Lampu 3 -->
       <div class="flex flex-col gap-2">
         <img src="assets/images/off.gif" alt="" id="lampu3" />
-        <button onclick="saklar('on', 3)" class="bg-white p-4 text-black">
-          NYALAKAN LAMPU 3
-        </button>
-        <button onclick="saklar('off', 3)" class="bg-white p-4 text-black">
-          MATIKAN LAMPU 3
-        </button>
+        <label class="relative inline-flex items-center cursor-pointer mx-auto">
+          <input
+            type="checkbox"
+            value=""
+            id="toggle3"
+            class="sr-only peer"
+            onchange="saklar()"
+          />
+          <div
+            class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"
+          ></div>
+          <span
+            class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300"
+          ></span>
+        </label>
       </div>
     </div>
 
